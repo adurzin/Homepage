@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: auto;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider_img.jpg);
+    position: relative;
+}
+
+.menu {
+    float: right;
+    
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    font-weight: 300;
+    color: #8c8c8c;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: black;
+}
+
+.menu-link:active {
+    color: deeppink;
+}
+
+.menu-link-active {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+}
+
+.slider-h2 {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.slider-content {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 22.5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button:hover {
+    color: deeppink;
+}
+
+.button:active {
+    color: #212121;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    opacity: 0.3;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle:active {
+    opacity: 1;
+}
+
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    background-color: #212121;
+    margin-bottom: 0;
+}
